@@ -1,2 +1,5 @@
-# Taller_Gig_Dise-odeSoftware
-Taller de diseño de Git (comandos y ramas)
+# Taller de diseño de Git (comandos y ramas)
+
+
+## Modicando el orden Primero artista Luego cancion
+![alt text](image.png)
