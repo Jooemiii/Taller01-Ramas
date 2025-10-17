@@ -32,7 +32,9 @@ public class PrimaryController {
     public void initialize() {
         listaCanciones = Cancion.leerCanciones();
         Collections.sort(listaCanciones);
-        for (Cancion c : listaCanciones ) {
+        
+        for (int i = listaCanciones.size() -1; i>= 0; i--) {
+            Cancion c = listaCanciones.get(i);
 
             HBox hb = new HBox(10);//hbox para ubicar info de cada cancion
             Label lbp = new Label(c.getPosActual() + "");
